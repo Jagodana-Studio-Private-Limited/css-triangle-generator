@@ -1,27 +1,32 @@
 export const siteConfig = {
-  // ====== CUSTOMIZE THESE FOR EACH TOOL ======
-  name: "{{TOOL_NAME}}",
-  title: "{{TOOL_TITLE}}",
-  description: "{{TOOL_DESCRIPTION}}",
-  url: "https://{{TOOL_SLUG}}.jagodana.com",
+  name: "CSS Triangle Generator",
+  title: "CSS Triangle Generator — Pure CSS Triangles, Instant Code",
+  description:
+    "Generate pure CSS triangles in seconds. Choose direction, size, and color — get clean CSS code using the classic border trick or modern clip-path. No images, no SVG needed.",
+  url: "https://css-triangle-generator.tools.jagodana.com",
   ogImage: "/opengraph-image",
 
   // Header
-  headerIcon: "Wrench", // lucide-react icon name (e.g., Image, Map, Code, Palette, Globe, FileSearch)
-  // Brand gradient colors for Tailwind are in globals.css (--brand / --brand-accent)
-  // Use text-brand, from-brand, to-brand-accent etc. in components
-  brandAccentColor: "#06b6d4", // hex accent for OG image gradient (must match --brand-accent in globals.css)
+  headerIcon: "Triangle",
+  brandAccentColor: "#6366f1",
 
   // SEO
   keywords: [
-    "{{KEYWORD_1}}",
-    "{{KEYWORD_2}}",
-    "{{KEYWORD_3}}",
+    "css triangle generator",
+    "css triangle",
+    "css border triangle",
+    "css clip-path triangle",
+    "pure css shapes",
+    "css triangle code",
+    "css arrow generator",
+    "css polygon generator",
+    "border trick css",
+    "css triangle online",
   ],
-  applicationCategory: "DeveloperApplication", // or "DesignApplication", "UtilitiesApplication"
+  applicationCategory: "DeveloperApplication",
 
   // Theme
-  themeColor: "#10b981", // used in manifest and meta tags
+  themeColor: "#3b82f6",
 
   // Branding
   creator: "Jagodana",
@@ -31,144 +36,162 @@ export const siteConfig = {
   // Social Profiles (for Organization schema sameAs)
   socialProfiles: [
     "https://twitter.com/jagodana",
-    // Add more: LinkedIn, YouTube, etc.
   ],
 
   // Links
   links: {
-    github: "https://github.com/Jagodana-Studio-Private-Limited/{{TOOL_SLUG}}",
+    github: "https://github.com/Jagodana-Studio-Private-Limited/css-triangle-generator",
     website: "https://jagodana.com",
   },
 
   // Footer
   footer: {
-    about: "{{FOOTER_ABOUT_DESCRIPTION}}",
+    about:
+      "CSS Triangle Generator is a free browser tool for generating pure CSS triangle shapes. No sign-up, no limits — just copy and use.",
     featuresTitle: "Features",
     features: [
-      "{{FEATURE_1}}",
-      "{{FEATURE_2}}",
-      "{{FEATURE_3}}",
-      "{{FEATURE_4}}",
+      "8 triangle directions",
+      "Border-trick & clip-path methods",
+      "Live preview",
+      "One-click CSS copy",
     ],
   },
 
   // Hero Section
   hero: {
-    badge: "{{HERO_BADGE_TEXT}}",
-    titleLine1: "{{HERO_TITLE_LINE_1}}",
-    titleGradient: "{{HERO_TITLE_GRADIENT_TEXT}}",
-    subtitle: "{{HERO_SUBTITLE}}",
+    badge: "Pure CSS — No Images Required",
+    titleLine1: "Generate CSS Triangles",
+    titleGradient: "Instantly",
+    subtitle:
+      "Pick a direction, size, and color — get clean CSS code for the classic border trick or modern clip-path. Works in every browser. 100% free.",
   },
 
-  // Feature Cards (shown on homepage)
+  // Feature Cards
   featureCards: [
     {
-      icon: "{{FEATURE_ICON_1}}",
-      title: "{{FEATURE_CARD_TITLE_1}}",
-      description: "{{FEATURE_CARD_DESC_1}}",
+      icon: "🎯",
+      title: "8 Directions",
+      description:
+        "Generate triangles pointing up, down, left, right, or any corner — all from the same tool.",
     },
     {
-      icon: "{{FEATURE_ICON_2}}",
-      title: "{{FEATURE_CARD_TITLE_2}}",
-      description: "{{FEATURE_CARD_DESC_2}}",
+      icon: "⚡",
+      title: "Two CSS Methods",
+      description:
+        "Classic border trick for zero-size boxes, or modern clip-path that works with backgrounds and gradients.",
     },
     {
-      icon: "{{FEATURE_ICON_3}}",
-      title: "{{FEATURE_CARD_TITLE_3}}",
-      description: "{{FEATURE_CARD_DESC_3}}",
+      icon: "📋",
+      title: "Copy-Ready Code",
+      description:
+        "Clean, production-ready CSS output. Click once to copy — paste directly into your stylesheet.",
     },
   ],
 
-  // Related Tools (cross-linking to sibling Jagodana tools for internal SEO)
+  // Related Tools
   relatedTools: [
     {
-      name: "Favicon Generator",
-      url: "https://favicon-generator.jagodana.com",
-      icon: "🎨",
-      description: "Generate all favicon sizes + manifest from any image.",
+      name: "Border Radius Generator",
+      url: "https://border-radius-generator.tools.jagodana.com",
+      icon: "⬛",
+      description: "Visually build CSS border-radius values with live preview.",
     },
     {
-      name: "Sitemap Checker",
-      url: "https://sitemap-checker.jagodana.com",
-      icon: "🔍",
-      description: "Discover and validate sitemaps on any website.",
+      name: "Box Shadow Generator",
+      url: "https://box-shadow-generator.tools.jagodana.com",
+      icon: "🌑",
+      description: "Create layered CSS box-shadow effects interactively.",
     },
     {
-      name: "Regex Playground",
-      url: "https://regex-playground.jagodana.com",
-      icon: "🧪",
-      description: "Build, test & debug regular expressions in real-time.",
+      name: "Clip Path Generator",
+      url: "https://clip-path-generator.tools.jagodana.com",
+      icon: "✂️",
+      description: "Build CSS clip-path polygons with a drag-and-drop editor.",
     },
     {
-      name: "Screenshot Beautifier",
-      url: "https://screenshot-beautifier.jagodana.com",
-      icon: "📸",
-      description: "Transform screenshots into beautiful images.",
+      name: "CSS Gradient Generator",
+      url: "https://css-gradient-generator.tools.jagodana.com",
+      icon: "🌈",
+      description: "Create beautiful CSS gradients with a visual editor.",
     },
     {
-      name: "Color Palette Explorer",
-      url: "https://color-palette-explorer.jagodana.com",
-      icon: "🎭",
-      description: "Extract color palettes from any image.",
+      name: "CSS Animation Generator",
+      url: "https://css-animation-generator.tools.jagodana.com",
+      icon: "🎞️",
+      description: "Build CSS @keyframe animations without writing a line of code.",
     },
     {
-      name: "Logo Maker",
-      url: "https://logo-maker.jagodana.com",
-      icon: "✏️",
-      description: "Create a professional logo in 60 seconds.",
+      name: "CSS Filter Generator",
+      url: "https://css-filter-generator.tools.jagodana.com",
+      icon: "🔮",
+      description: "Compose CSS filter effects (blur, contrast, hue) visually.",
     },
   ],
 
-  // HowTo Steps (drives HowTo JSON-LD schema for rich results)
+  // HowTo Steps
   howToSteps: [
-    { name: "{{STEP_1_NAME}}", text: "{{STEP_1_TEXT}}", url: "" },
-    { name: "{{STEP_2_NAME}}", text: "{{STEP_2_TEXT}}", url: "" },
-    { name: "{{STEP_3_NAME}}", text: "{{STEP_3_TEXT}}", url: "" },
+    {
+      name: "Choose a direction",
+      text: "Click one of the 8 direction buttons to set which way your triangle points.",
+      url: "",
+    },
+    {
+      name: "Select a method",
+      text: "Pick 'Border Trick' for a zero-size element or 'Clip-path' for a filled box with a clipped shape.",
+      url: "",
+    },
+    {
+      name: "Set size and color",
+      text: "Drag the size slider and pick a color using the color picker or by typing a hex value.",
+      url: "",
+    },
+    {
+      name: "Copy the CSS",
+      text: "Click 'Copy CSS' to copy the generated code and paste it directly into your stylesheet.",
+      url: "",
+    },
   ],
-  howToTotalTime: "PT2M", // ISO 8601 duration (e.g., PT2M = 2 minutes)
+  howToTotalTime: "PT1M",
 
-  // FAQ (drives both the FAQ UI section and FAQPage JSON-LD schema)
+  // FAQ
   faq: [
     {
-      question: "{{FAQ_QUESTION_1}}",
-      answer: "{{FAQ_ANSWER_1}}",
+      question: "How do CSS triangles work with borders?",
+      answer:
+        "CSS triangles use the border trick: set an element's width and height to 0, then set three borders — two transparent and one colored. The browser renders the colored border as a triangle because that's how border corners collapse when there is no visible box area.",
     },
     {
-      question: "{{FAQ_QUESTION_2}}",
-      answer: "{{FAQ_ANSWER_2}}",
+      question: "What is the difference between the border trick and clip-path?",
+      answer:
+        "The border trick works by collapsing borders on a zero-size element — it's supported in every browser including IE8+. The clip-path method clips a normal element (with width, height, and background) into a triangle shape — it's more flexible (works with images and gradients) but requires a modern browser.",
     },
     {
-      question: "{{FAQ_QUESTION_3}}",
-      answer: "{{FAQ_ANSWER_3}}",
+      question: "Can I use a CSS triangle as a tooltip arrow?",
+      answer:
+        "Yes! The border-trick triangle is perfect for tooltip arrows and speech-bubble tails. Position it with ::before or ::after pseudo-elements using position: absolute so it sits flush against your tooltip container.",
     },
     {
-      question: "{{FAQ_QUESTION_4}}",
-      answer: "{{FAQ_ANSWER_4}}",
+      question: "Why does the diagonal triangle look like a right triangle?",
+      answer:
+        "Diagonal triangles (top-left, top-right, etc.) are right isoceles triangles formed by setting two adjacent borders — one colored and one transparent — to equal sizes. This creates a 90-degree corner at the box corner and a hypotenuse across the diagonal.",
+    },
+    {
+      question: "Is this tool free to use?",
+      answer:
+        "Yes, completely free. All processing happens in your browser — nothing is sent to a server. No account required.",
     },
   ],
 
-  // ====== PAGES (for sitemap + per-page SEO) ======
-  // Add every route here. Sitemap and generatePageMetadata() read from this.
+  // Pages registry
   pages: {
     "/": {
-      title: "{{TOOL_TITLE}}",
-      description: "{{TOOL_DESCRIPTION}}",
+      title:
+        "CSS Triangle Generator — Pure CSS Triangles, Instant Code",
+      description:
+        "Generate pure CSS triangles in seconds. Choose direction, size, and color — get clean CSS code using the classic border trick or modern clip-path. No images, no SVG needed.",
       changeFrequency: "weekly" as const,
       priority: 1,
     },
-    // Example page (DELETE when starting your tool, or customize)
-    "/about": {
-      title: "About - {{TOOL_NAME}}",
-      description: "Learn more about {{TOOL_NAME}} and how it works.",
-      changeFrequency: "monthly" as const,
-      priority: 0.7,
-    },
-    // "/blog": {
-    //   title: "Blog - {{TOOL_NAME}}",
-    //   description: "Tips, tutorials, and updates about {{TOOL_NAME}}.",
-    //   changeFrequency: "weekly" as const,
-    //   priority: 0.8,
-    // },
   },
 } as const;
 
